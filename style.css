@@ -1,0 +1,19 @@
+
+body {
+  background-color: #0a0e14;
+  height: 100vh; /* vh refiere al % del tamaño vertical de la pantalla */
+}
+
+#grid-container section {
+  background-color: lightgray;
+  border: solid 2px darkgray;
+  text-align: center;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 20% 60%;
+  grid-template-rows: 30% 30% 30%;
+  gap: 20px;
+  height: 100%;
+}
